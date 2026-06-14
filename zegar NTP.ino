@@ -32,6 +32,7 @@
 #include <LittleFS.h>
 #include <FFat.h>
 #include <U8g2lib.h>
+#include <SPI.h>
 #include <Audio.h>
 #include <esp_adc/adc_oneshot.h>
 #include <esp_adc/adc_cali.h>
@@ -326,8 +327,8 @@ struct AlarmConfig {
 // RST = U8X8_PIN_NONE: U8g2 nigdy nie pulsuje resetu. Reset sprzetowy robimy
 // recznie tylko na zimnym starcie (setupDisplay). Dzieki temu ciepłe wybudzenie z
 // deep-sleep NIE resetuje panelu -> brak mrugania (panel trzyma obraz przez sen).
-static U8G2_ST7305_300X400_F_4W_SW_SPI display(
-  U8G2_R1, RLCD_SCK_PIN, RLCD_MOSI_PIN, RLCD_CS_PIN, RLCD_DC_PIN, U8X8_PIN_NONE);
+static U8G2_ST7305_300X400_F_4W_HW_SPI display(
+  U8G2_R1, RLCD_CS_PIN, RLCD_DC_PIN, U8X8_PIN_NONE);
 static U8G2 *gfx = &display;
 
 static WebServer  server(80);
@@ -2487,6 +2488,10 @@ static void setupDisplay(bool coldBoot) {
   delay(10);
   digitalWrite(RLCD_RST_PIN, HIGH);
   delay(10);
+  // Sprzetowe SPI usuwa ok. 4 s opoznienia pelnego sendBuffer(), ktore przy
+  // programowym SPI przesuwalo widoczna zmiane minuty.
+  SPI.begin(RLCD_SCK_PIN, -1, RLCD_MOSI_PIN, RLCD_CS_PIN);
+  display.setBusClock(2000000UL);      // zalecenie sterownika U8g2 dla ST7305
   display.begin();                     // initDisplay + clearDisplay + powerSave(0): panel zawsze zapalony po wybudzeniu
   gfx = &display;
   gfx->setContrast(255);
