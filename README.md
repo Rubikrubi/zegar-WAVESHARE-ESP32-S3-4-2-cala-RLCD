@@ -105,7 +105,11 @@ Poniższy film prezentuje działanie funkcji budzika w projekcie zegara NTP na p
 
 
 
-https://github.com/user-attachments/assets/51b55897-8cac-41dc-94f7-0c8458d4e2d8
+
+
+https://github.com/user-attachments/assets/10ea0199-e07e-42e1-8aef-4cdc399ce904
+
+
 
 
 
