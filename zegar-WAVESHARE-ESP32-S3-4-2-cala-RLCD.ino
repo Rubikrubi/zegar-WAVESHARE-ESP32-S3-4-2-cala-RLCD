@@ -1,5 +1,5 @@
 
-//  Zegar NTP v C.0.2
+//  Zegar NTP v 1.0
 //  Sprzet: Waveshare ESP32-S3-LCD-4.2 (RLCD ST7305 400x300, ES8311, PCF85063A).
 //  Arduino IDE: ESP32S3 Dev Module, Flash 8MB, partycja "8M with spiffs".
 //  Wymagane pliki obok .ino: photo_font.h
