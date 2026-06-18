@@ -40,6 +40,7 @@ zegar-WAVESHARE-ESP32-S3-4-2-cala-RLCD-main/
 │   ├── alarm1.mp3
 │   ├── alarm2.mp3
 │   └── alarm3.mp3
+├── .gitignore
 ├── LICENSE
 ├── README.md
 ├── foto 1.png
