@@ -126,8 +126,8 @@ Ostateczne sprawdzenie, testy na urządzeniu oraz publikację wykonał autor rep
 
 ## Autor
 
-Projekt: **Zegar NTP na WAVESHARE ESP32-S3 4.2" RLCD**
-Autor: **Rubikrubi**
+Projekt: **Zegar NTP na WAVESHARE ESP32-S3 4.2" RLCD**<br>
+Autor: **Rubikrubi**<br>
 GitHub: [github.com/Rubikrubi](https://github.com/Rubikrubi)
 
 
