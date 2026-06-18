@@ -119,7 +119,7 @@ https://github.com/user-attachments/assets/10ea0199-e07e-42e1-8aef-4cdc399ce904
 
 ## AI assistance
 
-Część kodu, refaktoryzacja oraz dokumentacja projektu były przygotowywane z pomocą modellu AI Claude Code  
+Część kodu, refaktoryzacja oraz dokumentacja projektu były przygotowywane z pomocą modelu AI Claude Code  
 Ostateczne sprawdzenie, testy na urządzeniu oraz publikację wykonał autor repozytorium.
 
 ---
