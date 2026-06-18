@@ -23,3 +23,14 @@ desktop.ini
 *~
 .vscode/
 .idea/
+# Secrets / local credentials
+secrets.h
+arduino_secrets.h
+credentials.h
+wifi_config.h
+config_local.h
+*.local.h
+
+# Environment files
+.env
+.env.*
