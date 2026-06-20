@@ -200,8 +200,8 @@ static const char *NTP_SERVER_1 = "pool.ntp.org";
 static const char *NTP_SERVER_2 = "time.google.com";
 static const char *NTP_SERVER_3 = "time.cloudflare.com";
 
-static const char *DEFAULT_WIFI_SSID = "2.4G-vnet-C37A18";
-static const char *DEFAULT_WIFI_PASS = "8259seven";
+static const char *DEFAULT_WIFI_SSID = "";
+static const char *DEFAULT_WIFI_PASS = "";
 
 // Pliki dzwiekow — indeks 0..2 odpowiada wyborowi w panelu WWW.
 static const char *SOUND_FILES[SOUND_COUNT] = {
