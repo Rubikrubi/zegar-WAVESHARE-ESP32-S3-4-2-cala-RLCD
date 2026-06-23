@@ -125,6 +125,19 @@ Ostateczne sprawdzenie, testy na urządzeniu oraz publikację wykonał autor rep
 
 ---
 
+## Releases
+
+Projekt posiada 4 wydania dostępne w zakładce **Releases**:
+
+- v1.0
+- v2.0
+- v3.0
+- v4.0
+
+Najnowszą wersję kodu najlepiej pobrać z zakładki **Releases**.
+
+---
+
 ## Autor
 
 Projekt: **Zegar NTP na WAVESHARE ESP32-S3 4.2" RLCD**<br>
