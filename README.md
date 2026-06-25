@@ -127,7 +127,7 @@ Ostateczne sprawdzenie, testy na urządzeniu oraz publikację wykonał autor rep
 
 ## Releases
 
-Projekt posiada 4 wydania dostępne w zakładce **Releases**:
+Projekt posiada 5 wersji dostępnych w zakładce **Releases**:
 
 - v1.0
 - v2.0
