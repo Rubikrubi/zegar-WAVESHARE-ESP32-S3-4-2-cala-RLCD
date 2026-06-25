@@ -133,7 +133,7 @@ Projekt posiada 4 wydania dostępne w zakładce **Releases**:
 - v2.0
 - v3.0
 - v4.0
-
+- v5.0
 Najnowszą wersję kodu najlepiej pobrać z zakładki **Releases**.
 
 ---
