@@ -20,6 +20,19 @@ Kod obsługuje synchronizację czasu przez Internet, RTC **PCF85063A**, budziki 
 * wyświetlanie dużego zegara na ekranie RLCD,
 * obsługa plików dźwiękowych z folderu `data`.
 
+## Obsługa przycisków
+
+- **KEY / GPIO18**  
+  Krótkie naciśnięcie:
+  - wycisza dzwoniący budzik,
+  - albo uruchamia / odświeża panel WWW.
+
+- **BOOT / GPIO0**  
+  Krótkie naciśnięcie:
+  - pokazuje podgląd najbliższego budzika.
+
+Oba przyciski mogą wybudzać zegar z trybu oszczędzania energii.
+
 ## Sprzęt
 
 Projekt przygotowany dla:
