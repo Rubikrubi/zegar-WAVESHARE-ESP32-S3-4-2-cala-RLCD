@@ -12,7 +12,7 @@ Kod obsługuje synchronizację czasu przez Internet, RTC **PCF85063A**, budziki 
 * synchronizacja czasu przez NTP,
 * podtrzymanie czasu przez RTC PCF85063A,
 * obsługa budzików MP3,
-* panel WWW do konfiguracji,
+* panel WWW do konfiguracji,np. 192.168.0.122
 * zapis ustawień w pamięci ESP32,
 * pomiar napięcia akumulatora,
 * tryb dzienny z oszczędzaniem energii,
