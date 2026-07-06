@@ -140,7 +140,7 @@ Ostateczne sprawdzenie, testy na urządzeniu oraz publikację wykonał autor rep
 
 ## Releases
 
-Projekt posiada 8 wersji dostępnych w zakładce **Releases**:
+Projekt posiada 9 wersji dostępnych w zakładce **Releases**:
 
 - v1.0
 - v2.0
@@ -150,6 +150,7 @@ Projekt posiada 8 wersji dostępnych w zakładce **Releases**:
 - v6.0
 - v7.0
 - v8.0
+- v9.0
 
 Najnowszą wersję kodu najlepiej pobrać z zakładki **Releases**.
 
